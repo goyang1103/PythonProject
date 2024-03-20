@@ -57,8 +57,25 @@
 
 # 정수값을 n을 입력 받아 n * n 크기의 행렬을 출력 하는 프로그램 작성
 # 값은 1부터 시작하고 순서대로 채워 넣는다.
-n = int(input("정수 입력 : "))
-for i in range(1, n * n + 1):
-    print(f"{i:3}", end='')    #이쁘게 찍기 위해서 오른쪽 정렬 한다. 왼쪽 정렬은 <
-    if i % n == 0:
-        print()
+# n = int(input("정수 입력 : "))
+# for i in range(1, n * n + 1):
+#     print(f"{i:3}", end='')    #이쁘게 찍기 위해서 오른쪽 정렬 한다. 왼쪽 정렬은 <
+#     if i % n == 0:
+#         print()
+
+# n = int(input("정수 입력 : "))
+# for i in range(n):
+#     if i % 2 == 0 : continue
+#     print(i, end=" ")
+
+# for문을 반대로 출력하기
+# for i in range(10, 0-1, -1):
+#     print(f"index : {i}")
+
+# for문으로 알파벳 출력하기 : chr (유니코드 값을 입력 받아 문자 출력)
+# ord (문자의 유니 코드 값을 반환)
+# for i in range(ord("A"), ord("Z")+1):
+#     print(chr(i), end=" ")
+
+for i in range(65, 91):  # A:65 Z:90
+    print(chr(i), end=" ")
