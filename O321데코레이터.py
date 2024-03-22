@@ -1,5 +1,5 @@
 # 이미 만들어져 있는 함수의 앞과 뒤에 기능을 추가 할 때 사용 됨
-# 스트링 부트에서는 AOP(Aspect Oriented Program)이라고 부름
+# 스트링부트  에서는 AOP(Aspect Oriented Program)이라고 부름
 from datetime import datetime
 def datetime_deco(func):
     def decorated():
