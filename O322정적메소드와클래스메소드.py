@@ -26,3 +26,5 @@ sonata = Car("중형", "쏘나타")
 morning.move(90)
 sonata.move(100)
 Car.check_type(11)
+
+
